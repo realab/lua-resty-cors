@@ -1,5 +1,5 @@
 package = "lua-resty-cors"
-version = "0.2-1"
+version = "0.2-2"
 source = {
    url = "git+https://github.com/detailyang/lua-resty-cors.git"
 }
@@ -15,6 +15,6 @@ dependencies = {}
 build = {
    type = "builtin",
    modules = {
-      ["lib.resty.cors"] = "lib/resty/cors.lua"
+      ["resty.cors"] = "lib/resty/cors.lua"
    }
 }
