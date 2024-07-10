@@ -1,7 +1,7 @@
 package = "lua-resty-cors"
 version = "0.2-2"
 source = {
-   url = "git+https://github.com/detailyang/lua-resty-cors.git"
+   url = "git+https://github.com/realab/lua-resty-cors.git"
 }
 description = {
    detailed = [[
